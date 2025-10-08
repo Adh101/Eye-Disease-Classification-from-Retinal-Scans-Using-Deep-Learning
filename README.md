@@ -63,13 +63,3 @@ Open either notebook in Jupyter or VS Code and run cells in order. High-level st
 Notes:
 - Use GPU (CUDA) for reasonable training times. If `torch.cuda.is_available()` is False, training will use CPU and be slow.
 - The notebooks include many inline `pip install` cells for missing packages; installing via `requirements.txt` is recommended for reproducibility.
-
-## Reproducibility & recommended changes
-
-- Save model checkpoints during training (not saved by default). Add `torch.save()` calls in training loops.
-- Consider using Git LFS for storing large image files (`train_images/`) or keep data outside the repository (recommended).
-- Add a small script-based training runner (`train.py`) for headless execution on a server.
-
-## Results
-
-The `output_images/` directory contains example outputs (confusion matrices and training curves) generated during experimentation. See files like `confusion_matrix_resnet50.png` and `output_curves_efficientnet.png`.
