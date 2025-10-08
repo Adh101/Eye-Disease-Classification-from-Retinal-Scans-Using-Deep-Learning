@@ -1,0 +1,82 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Local config / SQLite
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Virtualenvs
+env/
+venv/
+ENV/
+.venv/
+.env/
+env.bak/
+venv.bak/
+
+# IDEs and editors
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Notebook files: KEEP .ipynb files tracked (do NOT ignore them)
+# Note: we intentionally do NOT include patterns like '*.ipynb' or
+# '.ipynb_checkpoints' so Jupyter notebooks remain in version control.
+
+# Data, outputs, large artifacts
+data/
+output_images/
+models/
+checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Misc
+thumbs.db
