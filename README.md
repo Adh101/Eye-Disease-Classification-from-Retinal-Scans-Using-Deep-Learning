@@ -73,14 +73,3 @@ Notes:
 ## Results
 
 The `output_images/` directory contains example outputs (confusion matrices and training curves) generated during experimentation. See files like `confusion_matrix_resnet50.png` and `output_curves_efficientnet.png`.
-
-## Files added in this commit
-
-- `README.md` — this file
-
-## Contact / next steps
-
-If you want, I can:
-- Add a `requirements.txt` (I included one in this commit) or a `environment.yml` for conda.
-- Create a small `train.py` script to run experiments from the command line.
-- Add model checkpoint saving and evaluation scripts.
